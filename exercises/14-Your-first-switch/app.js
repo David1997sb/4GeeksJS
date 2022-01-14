@@ -1,7 +1,13 @@
 function getColor(selection)
 {
-	switch(selection){
-		// Add more options here
+	switch(selection.toLowerCase()){
+		case 'green':
+			return true;
+			
+		case 'red':
+			return true;
+		case 'blue':
+			return true
 	    default:
 	    	return false;  //returns false because the user picked an unavailable color
 	    break;               
